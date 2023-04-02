@@ -1,0 +1,45 @@
+1. Create the noughts and crosses grid.  Create as list and use join method to display as string. #Done
+2. Create grid referencing system.  First box = ('A1').  Last box = ('C3')
+3. Create user input = User by default is o's # optional have user select whether they want to be o's or x's.
+3. a) If user enters incompatible grid reference ie not in the correct format or space already taken prompt them and ask them to go again #Done
+4. Display the board showing where the user has placed the o. #Done
+5. Next the computer takes it's turn. Use randint method or similar method/function to randomly select a place on the grid 
+which is free. #Done
+6. Display board. #Done
+7. Create a dictionary for the terms of victory. If the conditions are met game is over. # Done. An if statement was used instead.
+8. Create a while loop which is broken when the terms of victory are satisfied. #Done
+9. ASk the player if they want to play again. # Will have to research this as not sure how to do it yet.
+
+Create a more intelligent computer player. #Done
+1. Can the computer win? - if the computer has two in a row place the x in the correct space to win.
+2. Is the human player about to win? - if the player has two in a row place the x to block human victory.
+3. Is the middle spot available?
+4. Are any of the corners available?
+5. Place the x in any other available space - use the randint while loop already created.
+
+Create Difficulty system #Done
+1. See notepad
+Achieved using probability.  There are two decisions the computer can make,  They can either place a random cross anywhere (that isn't occupied) 
+on the grid or follow the above route.  Three different difficulty modes; easy, medium and hard. Using randint(1,4).  For easy mode if the
+number 1 is generated then the computer will play the "intelligent" move otherwise if 2, 3, 4 are selected the computer will place it's choice 
+randomly.  Conversely if hard mode is selected then if 2, 3, 4 is selected the computer will play the "intelligent" move.
+Using probability is maybe not the perfect solution but I can't think of another solution at the moment.
+
+Create if statement for if the game is a draw # Done
+1. for i in board if all(board != "") return "Draw"
+
+Ask user if they would like to play as naughts or crosses # Done
+1. Create a variable that takes as an input the user's choice.  Inside this create a while loop until the user selects either a "0" or an "x".
+2. Create an if function that selects a the character for the player and the computer.  Initially the two variables should be empty strings
+and then these change to refelect the user choices. e.g. 
+if userselection var == "0":
+    player += "0"
+    computer += "x"
+and then another if statement refelecting the opposite.
+3. Update the other scripts to replace the characters "0" and "x" with the player and computer variables.
+
+Ask the user if they want to go firsrt or second
+1. Create a variable that takes as an input the user's choice.  The user will be required to type yes or no.
+2. Two separate scripts will have to be written containing the corresponding while loops.  i.e. yes corresponds to the player going first, so 
+the code that has already been written can be used.  The other while loop will be the same but reversed meaning the computer will go first.
+
