@@ -4,6 +4,7 @@ def playerWin(board, player1):
     player_Win = False
     if board[0][0] == player1 and board[0][1] == player1 and board[0][2] == player1:
         player_Win = True
+        exit(display_board(board)+"\nCongratulations. You win! \nThanks for playing.")
     elif board[1][0] == player1 and board[1][1] == player1 and board[1][2] == player1:
         player_Win = True
         exit(display_board(board)+"\nCongratulations. You win! \nThanks for playing.")

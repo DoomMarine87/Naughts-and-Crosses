@@ -14,3 +14,10 @@ def difficulty(difficulty):
         if difficulty == "easy" or difficulty == "medium" or difficulty == "hard":
             break
 
+def firstOrSecond(turn):
+    while turn:
+        if not re.search("y|n", turn):
+            turn = input("Please enter 'y' for yes if you would like to go first or 'n' if you would like to go second: ")
+        if turn == "y" or turn == "n":
+            break
+

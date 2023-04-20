@@ -38,8 +38,18 @@ if userselection var == "0":
 and then another if statement refelecting the opposite.
 3. Update the other scripts to replace the characters "0" and "x" with the player and computer variables.
 
-Ask the user if they want to go firsrt or second
+Ask the user if they want to go firsrt or second # Done
 1. Create a variable that takes as an input the user's choice.  The user will be required to type yes or no.
-2. Two separate scripts will have to be written containing the corresponding while loops.  i.e. yes corresponds to the player going first, so 
-the code that has already been written can be used.  The other while loop will be the same but reversed meaning the computer will go first.
+2. All the functions for computer's choice, checking game status exist already if player chooses to go first then the present order
+is followed within a while loop if player chooses to go second then this order is reversed.
 
+Give the player an opportunity to play again if they wish.
+1. Incorporate into the game status script the while link needed to keep the game going.
+2. Remove the exit() statements replacing them with break
+3. Once the game is won or lost provide input allowing user to choose whether they would like to play again/
+
+Create a scoreboard
+1. Scooreboard increments by 1
+2. Updated scoreboard displayed at the end of the game.
+
+Add two player mode
