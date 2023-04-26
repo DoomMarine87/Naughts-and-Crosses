@@ -1,23 +1,25 @@
+import settings 
 import re
 
-def playerChoice(player1):
-    while player1:
-        if not re.search("X|0", player1):
-            player1 = input("Please choose X or 0: ")
-        if player1 == "X" or player1 == "0":
+
+def playerChoice():
+    while settings.player1:
+        if not re.search("X|0", settings.player1):
+            settings.player1 = input("You have not entered 'X' or '0'.  Please choose X or 0 (case sensitive): ")
+        if settings.player1 == "X" or settings.player1 == "0":
             break
 
-def difficulty(difficulty):
-    while difficulty:
-        if not re.search("easy|medium|hard", difficulty):
-            difficulty = input("Please enter either 'easy', 'medium' or 'hard' (case sensitive): ")
-        if difficulty == "easy" or difficulty == "medium" or difficulty == "hard":
+def difficulty():
+    while settings.mode:
+        if not re.search("easy|medium|hard", settings.mode):
+            settings.mode = input("Please enter either 'easy', 'medium' or 'hard' (case sensitive): ")
+        if settings.mode == "easy" or settings.mode == "medium" or settings.mode == "hard":
             break
 
-def firstOrSecond(turn):
-    while turn:
-        if not re.search("y|n", turn):
-            turn = input("Please enter 'y' for yes if you would like to go first or 'n' if you would like to go second: ")
-        if turn == "y" or turn == "n":
+def firstOrSecond():
+    while settings.turn:
+        if not re.search("y|n", settings.turn):
+            settings.turn = input("Please enter 'y' for yes if you would like to go first or 'n' if you would like to go second: ")
+        if settings.turn == "y" or settings.turn == "n":
             break
 
