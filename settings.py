@@ -1,8 +1,10 @@
 def init():
+    global board
+    board  = [[" " for i in range(3)] for i in range(3)]
     global player1
     player1 = ""
     global comp 
-    comp = ""
+    comp = "0"
     global mode 
     mode = ""
     global turn

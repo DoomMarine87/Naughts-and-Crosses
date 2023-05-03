@@ -45,11 +45,15 @@ is followed within a while loop if player chooses to go second then this order i
 
 Give the player an opportunity to play again if they wish.
 1. Incorporate into the game status script the while link needed to keep the game going.
-2. Remove the exit() statements replacing them with break
-3. Once the game is won or lost provide input allowing user to choose whether they would like to play again/
+2. Remove the exit() statements replacing them with break # Done
+3. Once the game is won or lost provide input allowing user to choose whether they would like to play again
+    a) incorporate this into the winLoseOrDraw.py script at the end after the if statements.
 
 Create a scoreboard
-1. Scooreboard increments by 1
-2. Updated scoreboard displayed at the end of the game.
+1. Scooreboard increments by 1 for player if they win or by 1 for the computer if it wins. Draw = 0
+2. Updated scoreboard displayed at the end of each game and the final scoreboard is shown at the end of the set games.
+3. Create global variables for player_Score and comp_Score and save them in the settingas.py script
+4. Update winLoseOrDraw.py script (possibly rename this script to end game message.py so it is clearer.)
+
 
 Add two player mode
