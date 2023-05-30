@@ -1,5 +1,6 @@
 import random
 import settings
+
 def computerChoice():
     res = random.randint(1,4)
     if settings.mode == "easy" and res == 1 or settings.mode == "medium" and res == 3 or res == 4 or settings.mode == "hard" and res == 2 or res == 3 or res == 4:

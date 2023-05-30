@@ -8,7 +8,7 @@ which is free. #Done
 6. Display board. #Done
 7. Create a dictionary for the terms of victory. If the conditions are met game is over. # Done. An if statement was used instead.
 8. Create a while loop which is broken when the terms of victory are satisfied. #Done
-9. ASk the player if they want to play again. # Will have to research this as not sure how to do it yet.
+9. ASk the player if they want to play again. # Done
 
 Create a more intelligent computer player. #Done
 1. Can the computer win? - if the computer has two in a row place the x in the correct space to win.
@@ -43,17 +43,24 @@ Ask the user if they want to go firsrt or second # Done
 2. All the functions for computer's choice, checking game status exist already if player chooses to go first then the present order
 is followed within a while loop if player chooses to go second then this order is reversed.
 
-Give the player an opportunity to play again if they wish.
+Give the player an opportunity to play again if they wish. # Done
 1. Incorporate into the game status script the while link needed to keep the game going.
 2. Remove the exit() statements replacing them with break # Done
 3. Once the game is won or lost provide input allowing user to choose whether they would like to play again
     a) incorporate this into the winLoseOrDraw.py script at the end after the if statements.
 
-Create a scoreboard
+Create a scoreboard # Done
 1. Scooreboard increments by 1 for player if they win or by 1 for the computer if it wins. Draw = 0
 2. Updated scoreboard displayed at the end of each game and the final scoreboard is shown at the end of the set games.
 3. Create global variables for player_Score and comp_Score and save them in the settingas.py script
 4. Update winLoseOrDraw.py script (possibly rename this script to end game message.py so it is clearer.)
 
 
+
 Add two player mode
+
+Decision trees: Binary trees can be used to implement decision trees, a type of machine learning algorithm used for classification 
+and regression analysis.
+
+Game AI: Binary trees can be used to implement game AI, where each node represents a possible move in the game. The AI algorithm can 
+search the tree to find the best possible move.

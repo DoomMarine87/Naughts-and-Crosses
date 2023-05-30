@@ -17,3 +17,11 @@ def init():
     choice = ""
     global draw 
     draw = False
+    global playerScore
+    playerScore = 0
+    global computerScore
+    computerScore = 0
+    global playAgain
+    playAgain = ""
+    global stop 
+    stop = False
