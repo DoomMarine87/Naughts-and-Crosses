@@ -1,9 +1,9 @@
-# Noughts-and-Crosses
-A noughts and crosses game written in the Python language
+# Naughts-and-Crosses
+A naughts and crosses game written in the Python language
 
 This is my first Python project.
 
-The user can play a game of noughts and crosses with a computerised opponent. 
+The user can play a game of naughts and crosses with a computerised opponent. 
 
 To play the game run main.py.
 
